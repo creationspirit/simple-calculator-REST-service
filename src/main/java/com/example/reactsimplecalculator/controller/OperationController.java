@@ -13,7 +13,7 @@ public class OperationController {
 
     private static final String operationRegex = "[*/+-]";
 
-    @RequestMapping(method = RequestMethod.GET, value="/calculate")
+    @RequestMapping(method = RequestMethod.GET, value="/calculation")
     public Result calculate(@RequestParam(value="a") double a,
                             @RequestParam(value="b") double b,
                             @RequestParam(value="op") String op) {
