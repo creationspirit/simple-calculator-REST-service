@@ -1,4 +1,4 @@
-## Simple Calculator for REST Service
+## Simple REST Service for a Calculator App
 
 Spring Boot REST service exposing calculations API for a simple calculator <br>
 
